@@ -4245,7 +4245,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>I never thought about it.</td>
 		<td class='result unconfirmed'><div class='text'>OK</div><div class='symbol'>💦</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
