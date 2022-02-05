@@ -6074,7 +6074,7 @@ for (var i = 0; i < btns.length; i++) {
 </table>
 <table class="table-responsive-sm filterDiv Incubus Ose Ganesha Girimehkala Kaiwan Sandman Rakshasa Orobas Take-Minakata Koppa_Tengu">
 	<tr>
-		<th colspan="5">...Um, why're you going' for me? Ain't there worse people out there? What kind of guys piss you off?</th>
+		<th colspan="5">...Um, why're you going' for me? Ain't there worse people out there? What kinda guys piss you off?</th>
 	</tr>
 	<tr>
 		<td></td>
