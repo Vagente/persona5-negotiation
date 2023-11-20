@@ -4,21 +4,14 @@ A tool to help with negotiations in Persona 5 and Persona 5 Royal.
 
 Direct link to a user-friendly version: http://joyce-chen.github.io/persona5-negotiation/
 
-If you want to contribute any changes or confirm some results, please use the [open issue for P5 Royal](https://github.com/joyce-chen/persona5-negotiation/issues/16), the [open issue for P5](https://github.com/joyce-chen/persona5-negotiation/issues/17), or [the form](https://forms.gle/JtH9YUekRKVEkYgc6). Thank you!
+If you want to contribute any changes or confirm some results, please use the [open issue for P5 Royal](https://github.com/joyce-chen/persona5-negotiation/issues/16), the [open issue for P5](https://github.com/joyce-chen/persona5-negotiation/issues/17), or [the form](https://forms.gle/LYeRcRsMgnYYu85A8). Thank you!
 
-Submitted questions are up-to-date as of **March 31st**. (No consistent update schedule.)
+Submitted questions are up-to-date as of **March 13 2023**. (No consistent update schedule. Happy New Year 🎉)
 
 
 ---
 
-August 10th: 
-- Added a dark mode.
-- Added icon labels to the text/icon toggle for both question pages.
-- Used local storage to keep toggle state.
-- Made tables responsive for small screens.
-
-
-TODOS:
+Possible Features:
 - Organize the filters to show all the questions for pools of Shadows.
 - Show corresponding personality only when filtering by Persona.
 - Organize Shadows by level instead.
