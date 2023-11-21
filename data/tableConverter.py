@@ -181,11 +181,11 @@ def convert_csv_to_new_tables(datafilename, outputfilename, indexfilename, royal
 
 royal_file = 'data/persona-5-royal-questions.xlsx'
 royal_output = 'data/output-royal.html'
-royal_index = 'royal.md'
+royal_index = 'index.md'
 
 original_file = 'data/persona-5-questions.xlsx'
 original_output = 'data/output-original.html'
-original_index = 'index.md'
+original_index = 'p5.md'
 
 convert_csv_to_new_tables(royal_file, royal_output, royal_index, True)
 convert_csv_to_new_tables(original_file, original_output, original_index, False)
