@@ -192,7 +192,6 @@ function toggleRoyalCompact(loading) {
 			symbol[i].style.display = "block";
 			text[i].style.display = "none";
 		} else {
-			symbol[i].style.display = "none";
 			text[i].style.display = "block";
 		}
 	}

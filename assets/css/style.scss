@@ -146,12 +146,13 @@ a:visited {
 
 // ----------- TABLES ----------- //
 table {
-  width: auto;
+  width: 100%;
+  height: 260px;
   background-color: var(--table-bg);
   border: 1px solid var(--table-border);
   color: var(--table-text);
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   th {
     font-weight: bold;
     text-align: center;
@@ -160,7 +161,11 @@ table {
     border-color: var(--table-border);
   }
   td {
-    border-bottom: 1px solid var(--table-border);
+    border: 1px solid var(--table-border);
+    &:nth-child(1){
+      width: 36%;
+    }
+    width: 16%;
   }
   .subheader {
     text-align: center;
@@ -176,9 +181,11 @@ table {
   }
   .text {
     display: block;
+    float: left
   }
   .symbol {
-    display: none;
+    display: block;
+    float:right
   }
 }
 .unconfirmed {
