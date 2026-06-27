@@ -1,10 +1,10 @@
 <nav>
     {% for navigation in site.data.navigation %}
     {% assign link = navigation.url %}
-    {% if navigation.url != '/persona5-negotiation/' %}
+    {% if navigation.url != '' %}
         {% assign link = navigation.url | append: '.html' %}
     {% endif %}
-    {% assign current = '/persona5-negotiation' | append: page.url %}
+    {% assign current = '' | append: page.url %}
     <a role="button" class="btn btn-outline-danger btn{% if link == current %} active{% endif %}" 
         href="{{ navigation.url }}">{{ navigation.text }}</a>
     {% endfor %}
