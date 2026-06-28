@@ -1,16 +1,16 @@
 <nav>
     {% for navigation in site.data.navigation %}
     {% assign link = navigation.url %}
-    {% if navigation.url != '' %}
+    {% if navigation.url != '/' %}
         {% assign link = navigation.url | append: '.html' %}
     {% endif %}
-    {% assign current = '' | append: page.url %}
+    {% assign current = '/' | append: page.url %}
     <a role="button" class="btn btn-outline-danger btn{% if link == current %} active{% endif %}" 
         href="{{ navigation.url }}">{{ navigation.text }}</a>
     {% endfor %}
     
     <!-- <a role="button" class="btn btn-outline-danger btn" href="info">Info</a>
     <a role="button" class="btn btn-outline-danger btn" href="shadows">Shadows</a>
-    <a role="button" class="btn btn-outline-danger btn" href="/persona5-negotiation">P5 Questions</a>
+    <a role="button" class="btn btn-outline-danger btn" href="/">P5 Questions</a>
     <a role="button" class="btn btn-outline-danger btn" href="royal">Royal</a> -->
 </nav>
